@@ -137,13 +137,14 @@ html {
 .picture {
   margin-top: 18px;
   margin-left: 22px;
-  margin-right: 22px;
+  margin-right: 20px;
 }
 
 .span {
-  line-height: 50px;
+  line-height: 19px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   font-size: 15px;
-  line-height: 18px;
 }
 
 .tape {
