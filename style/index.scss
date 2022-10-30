@@ -7,14 +7,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  // min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
 }
 .container {
   display: flex;
   color: $white;
   margin: auto;
-  min-height: 100vh;
+  // min-height: 100vh;
 }
 .price-card {
   display: flex;
