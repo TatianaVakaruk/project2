@@ -13,7 +13,6 @@ html {
 .container {
   display: flex;
   color: #fff;
-  margin: auto;
 }
 
 .price-card {
