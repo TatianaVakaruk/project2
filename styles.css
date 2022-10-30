@@ -66,8 +66,6 @@ html {
   font-size: 20px;
 }
 .price-card__price {
-  margin: 0;
-  padding: 0;
   margin-bottom: 40px;
   line-height: 105px;
   width: 380px;
