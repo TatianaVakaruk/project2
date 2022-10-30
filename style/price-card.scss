@@ -112,6 +112,12 @@ html {
   &__options-list-item:nth-child(odd) {
     background-color: $light-black;
   }
+  &__span {
+    line-height: 18px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
   &__order-btn {
     margin-top: 39px;
     margin-left: 112px;
@@ -143,12 +149,7 @@ html {
   margin-left: 22px;
   margin-right: 17px;
 }
-.span {
-  line-height: 18px;
-  margin-top: 14px;
-  margin-bottom: 16px;
-  font-size: 15px;
-}
+
 .tape {
   line-height: 25px;
   text-align: center;
