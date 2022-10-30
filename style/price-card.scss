@@ -138,6 +138,7 @@ html {
   }
 }
 .picture {
+  line-height: 50px;
   margin-top: 18px;
   margin-left: 22px;
   margin-right: 17px;
@@ -145,9 +146,9 @@ html {
   //height: 13px;
 }
 .span {
-  line-height: 18px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  line-height: 50px;
+  // margin-top: 16px;
+  //margin-bottom: 16px;
   font-size: 15px;
 }
 .tape {
