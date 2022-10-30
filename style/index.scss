@@ -14,6 +14,7 @@ html {
   display: flex;
   color: $white;
   margin: auto;
+  min-height: 100vh;
 }
 .price-card {
   display: flex;
