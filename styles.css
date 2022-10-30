@@ -39,18 +39,27 @@ html {
   margin-bottom: 115px;
   margin-right: 132px;
 }
-.price-card__container {
-  position: relative;
-  bottom: 25px;
-}
 .price-card__title {
+  text-align: center;
+}
+.price-card__title_first {
   margin-left: 140px;
   margin-right: 140px;
-  margin-bottom: 33px;
   margin-top: 33px;
   width: 100px;
   height: 64px;
-  text-align: center;
+}
+.price-card__title_second {
+  margin-top: 10px;
+  margin-left: 126px;
+  width: 164px;
+  height: 64px;
+}
+.price-card__title_third {
+  margin-left: 102px;
+  margin-top: 36px;
+  width: 176px;
+  height: 64px;
 }
 .price-card__title-basic {
   margin: 0;
@@ -58,12 +67,14 @@ html {
   line-height: 43px;
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
 .price-card__title-website {
   margin: 0;
   padding: 0;
   line-height: 24px;
   font-size: 20px;
+  text-align: center;
 }
 .price-card__price {
   margin-bottom: 40px;

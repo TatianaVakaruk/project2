@@ -37,18 +37,31 @@ html {
     margin-bottom: 115px;
     margin-right: 132px;
   }
-  &__container {
-    position: relative;
-    bottom: 25px;
-  }
+
   &__title {
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-bottom: 33px;
-    margin-top: 33px;
-    width: 100px;
-    height: 64px;
     text-align: center;
+    &_first {
+      margin-left: 140px;
+      margin-right: 140px;
+      //margin-bottom: 33px;
+      margin-top: 33px;
+      width: 100px;
+      height: 64px;
+    }
+    &_second {
+      margin-top: 10px;
+      margin-left: 126px;
+      //margin-bottom: 33px;
+      width: 164px;
+      height: 64px;
+    }
+    &_third {
+      margin-left: 102px;
+      margin-top: 36px;
+      //margin-bottom: 33px;
+      width: 176px;
+      height: 64px;
+    }
   }
   &__title-basic {
     margin: 0;
@@ -56,13 +69,16 @@ html {
     line-height: 43px;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
   }
   &__title-website {
     margin: 0;
     padding: 0;
     line-height: 24px;
     font-size: 20px;
+    text-align: center;
   }
+
   &__price {
     margin-bottom: 40px;
     line-height: 105px;
