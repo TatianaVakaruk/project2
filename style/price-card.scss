@@ -127,12 +127,15 @@ html {
     color: $white;
     &_green {
       background-color: $green;
+      cursor: pointer;
     }
     &_blue {
       background-color: $blue;
+      cursor: pointer;
     }
     &_orange {
       background-color: $orange;
+      cursor: pointer;
     }
   }
 }
