@@ -5,6 +5,8 @@
 html {
   background-color: $dark;
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
 }
@@ -43,7 +45,6 @@ html {
     &_first {
       margin-left: 140px;
       margin-right: 140px;
-      //margin-bottom: 33px;
       margin-top: 33px;
       width: 100px;
       height: 64px;
@@ -51,14 +52,12 @@ html {
     &_second {
       margin-top: 8px;
       margin-left: 108px;
-      //margin-bottom: 33px;
       width: 164px;
       height: 64px;
     }
     &_third {
       margin-left: 102px;
       margin-top: 33px;
-      //margin-bottom: 33px;
       width: 176px;
       height: 64px;
     }
