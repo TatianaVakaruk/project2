@@ -1,12 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   background-color: #141b1c;
   display: flex;
   min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -104,16 +99,16 @@ html {
   width: 327px;
   height: 36px;
 }
-.price-card__option-list {
+.price-card__options-list {
   padding: 0;
   margin: 0;
 }
-.price-card__option-list-item {
+.price-card__options-list-item {
   width: 380px;
   height: 50px;
   list-style-type: none;
 }
-.price-card__option-list-item:nth-child(odd) {
+.price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card__order-btn {
@@ -164,6 +159,14 @@ html {
   position: relative;
   left: 265px;
   top: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
