@@ -8,10 +8,10 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   width: 380px;
   height: 770px;
   background-color: #334247;
-  overflow: hidden;
 }
 .price-card_first {
   margin-top: 63px;
@@ -109,12 +109,12 @@
   margin-top: 39px;
   margin-left: 112px;
   margin-right: 113px;
-  font-size: 14px;
   line-height: 17px;
-  width: 154px;
-  height: 40px;
   border-radius: 20px;
   border: none;
+  font-size: 14px;
+  width: 154px;
+  height: 40px;
   text-align: center;
   color: #fff;
 }
