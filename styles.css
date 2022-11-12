@@ -145,17 +145,17 @@
 }
 
 .tape {
-  line-height: 25px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  width: 147px;
-  height: 25px;
-  background-color: #dc3f45;
-  transform: rotate(45deg);
   position: relative;
   left: 265px;
   top: 30px;
+  line-height: 25px;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #dc3f45;
 }
 
 * {
