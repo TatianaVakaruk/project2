@@ -112,10 +112,10 @@
   line-height: 17px;
   border-radius: 20px;
   border: none;
-  font-size: 14px;
+  text-align: center;
   width: 154px;
   height: 40px;
-  text-align: center;
+  font-size: 14px;
   color: #fff;
 }
 .price-card__order-btn_green {
