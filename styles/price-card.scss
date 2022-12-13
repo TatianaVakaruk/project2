@@ -1,9 +1,16 @@
-.container {
-  display: flex;
+body {
   margin: auto;
   min-height: 100vh;
-  color: $white;
 }
+
+.container {
+  display: flex;
+  color: $white;
+  width: 1176px;
+  height: 770px;
+  margin: auto;
+}
+
 .price-card {
   display: flex;
   flex-direction: column;
@@ -11,23 +18,14 @@
   width: 380px;
   height: 770px;
   background-color: $grey;
+  margin: auto;
 
   &_first {
-    margin-top: 63px;
-    margin-left: 132px;
     margin-right: 18px;
+  }
 
-    margin-bottom: 60px;
-  }
   &_second {
-    margin-top: 63px;
-    margin-bottom: 60px;
     margin-right: 18px;
-  }
-  &_third {
-    margin-top: 63px;
-    margin-bottom: 60px;
-    margin-right: 132px;
   }
 
   &__title {
@@ -39,12 +37,14 @@
       width: 100px;
       height: 64px;
     }
+
     &_second {
       margin-top: 8px;
       margin-left: 108px;
       width: 164px;
       height: 64px;
     }
+
     &_third {
       margin-left: 102px;
       margin-top: 33px;
@@ -52,6 +52,7 @@
       height: 64px;
     }
   }
+
   &__title-basic {
     margin: 0;
     padding: 0;
@@ -60,6 +61,7 @@
     font-weight: 700;
     text-align: center;
   }
+
   &__title-website {
     margin: 0;
     padding: 0;
@@ -75,16 +77,24 @@
     height: 105px;
     text-align: center;
     font-size: 55px;
+    font-weight: 700;
+
     &_green {
+      margin-top: 37px;
       background-color: $green;
     }
+
     &_blue {
+      margin-top: 37px;
       background-color: $blue;
     }
+
     &_orange {
+      margin-top: 37px;
       background-color: $orange;
     }
   }
+
   &__description {
     margin-left: 26px;
     margin-right: 26px;
@@ -95,22 +105,24 @@
     width: 327px;
     height: 36px;
   }
+
   &__options-list {
     padding: 0;
     margin: 0;
   }
+
   &__options-list-item {
     width: 380px;
     height: 50px;
     list-style-type: none;
   }
+
   &__options-list-item:nth-child(odd) {
     background-color: $light-black;
   }
+
   &__order-btn {
-    margin-top: 39px;
-    margin-left: 112px;
-    margin-right: 113px;
+    margin: auto;
     line-height: 17px;
     border-radius: 20px;
     border: none;
@@ -119,31 +131,37 @@
     height: 40px;
     font-size: 14px;
     color: $white;
+
     &_green {
       background-color: $green;
       cursor: pointer;
     }
+
     &_blue {
       background-color: $blue;
       cursor: pointer;
     }
+
     &_orange {
       background-color: $orange;
       cursor: pointer;
     }
   }
 }
+
 .picture {
   margin-top: 15px;
   margin-left: 22px;
   margin-right: 17px;
 }
+
 .span {
   margin-top: 14px;
   margin-bottom: 16px;
   line-height: 18px;
   font-size: 15px;
 }
+
 .tape {
   position: relative;
   left: 265px;
